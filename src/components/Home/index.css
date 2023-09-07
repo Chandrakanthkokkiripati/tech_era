@@ -1,0 +1,50 @@
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  font-family: 'roboto';
+}
+.failure-image {
+  width: 600px;
+  height: fit-content;
+  padding-bottom: 30px;
+}
+.failure-view-container h1 {
+  color: #455568;
+  margin-bottom: 0;
+}
+.failure-view-container p {
+  color: #64748b;
+}
+.failure-view-container button {
+  color: #ffffff;
+  background-color: #42569e;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 10px;
+  width: 100px;
+}
+.success-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+}
+.courses-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 0;
+}

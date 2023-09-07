@@ -1,0 +1,32 @@
+.course-item-details-container {
+  min-height: 100vh;
+  font-family: 'roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-details-card {
+  border-radius: 10px;
+  width: 70%;
+  height: 60vh;
+  box-shadow: 1px 1px 7px #1e293b;
+  display: flex;
+}
+
+.course-details-card img {
+  height: 60vh;
+  margin-right: 30px;
+  width: 300px;
+}
+
+.course-details-card h1 {
+  color: #1e293b;
+}
+
+.course-details-card p {
+  color: #475569;
+  font-size: 20px;
+  line-height: 2.5rem;
+  font-weight: 500;
+}

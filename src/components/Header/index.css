@@ -1,0 +1,10 @@
+.header-container {
+  background-color: #f0f4f6;
+  padding: 14px 50px;
+}
+
+img {
+  width: 170px;
+  height: 50px;
+  cursor: pointer;
+}
